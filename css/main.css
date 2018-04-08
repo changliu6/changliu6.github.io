@@ -2,29 +2,78 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+nav{
+    background-color: navy;
+    padding: 5px; 
+    /*text-align:center;*/
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    display: flex;
+    justify-content: space-around;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
-    color: #999;
+}
+
+#Nav a {
+    text-decoration: none;
+    color: white; /*#999;*/
 }
 a:hover {
     text-decoration: underline;
 }
+
+.home-column-left {
+    float: left;
+    padding: 10px;
+    width: 20%;
+}
+
+.home-column-right {
+    float: left;
+    padding: 10px;
+    width: 75%;
+}
+
+/* Clear floats after the columns */
+.home-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 h1 {
-    font-size: 3em;
+    font-size: 1.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background-color: gray;
+    color: white;
+    /*text-indent: 20px;*/
+    padding: 10px; /* margin of text within the element*/
+}
+/*h1.blackbackground {
+    background-color: black;
+    color: white;
+}*/
+h2 {
+    font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+/*h2.blackbackground {
+    background-color: black;
+    color: white;
+}*/
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
 }
