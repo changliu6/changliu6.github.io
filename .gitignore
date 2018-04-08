@@ -1,1 +1,3 @@
-_site/
+_site
+# include .jpg in this repo, since .jpg is ignored globally
+!*.jpg 
