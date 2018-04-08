@@ -10,7 +10,7 @@ title: Home
 
 <div class="home-row">
 	<div class = "home-column-left">
-		<img src="images/ChangLiu.jpg" style="width:180px;height:270px;vertical-align: middle;">
+		<img src="./images/ChangLiu.jpg" style="width:180px;height:270px;vertical-align: middle;">
 	</div>
 	<div class = "home-column-right">
 		<p> Hi! I am a Postdoctoral Associate at the School of Mechanical and Aerospace Engineering, Cornell University. I work with <a href="http://lisc.mae.cornell.edu/wordpress/?page_id=33">Silvia Ferrari</a>, <a href="https://campbell.mae.cornell.edu/research-group/mark-campbell">Mark Campbell</a>, and <a href="https://www.cs.cornell.edu/~kilian/">Killian Weinberger</a>. My current research focus is on decentralized perception, planning, and control of autonomous systems on both individual and large-scale levels for mission-critical situations. </p>
